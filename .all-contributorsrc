@@ -1,0 +1,14 @@
+{
+  "projectName": "discord-bot",
+  "projectOwner": "CuriousGrids",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "readme.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [],
+  "contributorsPerLine": 7,
+  "skipCi": true
+}

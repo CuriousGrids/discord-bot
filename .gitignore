@@ -1,0 +1,14 @@
+# NPM Logs
+npm-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Dependency directories
+node_modules/
+
+# Optional eslint cache
+cache
+
+# dotenv environment variables file
+.env

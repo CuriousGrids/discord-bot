@@ -1,0 +1,35 @@
+{
+  "name": "discord-bot",
+  "version": "0.0.0",
+  "description": "Discord Bot For @CuriousGrids Organization",
+  "main": "src/app.js",
+  "scripts": {
+    "prepare": "husky install config/husky",
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CuriousGrids/discord-bot.git"
+  },
+  "keywords": [],
+  "author": "Krish <krishdevdb@gmail.com> (https://github.com/krishdevdb)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CuriousGrids/discord-bot/issues"
+  },
+  "homepage": "https://github.com/CuriousGrids/discord-bot#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^12.1.4",
+    "eslint": "^7.27.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "husky": "^6.0.0",
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "commitlint": "^12.1.4"
+  }
+}
